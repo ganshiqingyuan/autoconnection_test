@@ -11,9 +11,9 @@ autocannon({
       {
           path: '/',
           setupRequest: function (client) {
-            client.body = notepack.encode({
-                a:123
-            })
+//             client.body = notepack.encode({
+//                 a:123
+//             })
             return client
           },
           onResponse: function (status,body, context) {
